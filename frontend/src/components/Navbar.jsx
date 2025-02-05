@@ -4,7 +4,10 @@ import { useNavigate } from "react-router-dom";
 import {FaMoon, FaSun } from "react-icons/fa";
 
 
+
 function Navbar(){
+
+
 
 const [darkMode, setDarkMode] = useState(false); // state for dark mode
     const navigate = useNavigate();
@@ -53,4 +56,6 @@ size={24}
   )
 }
 
+
 export default Navbar
+
